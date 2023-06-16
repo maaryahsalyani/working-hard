@@ -19,3 +19,12 @@ if (is.numeric(as.numeric(no_input)) & #first it will check if the input is a nu
 } else { #this is the else condition for the outer if statement 
   print("Entry is not valid. Terminating...") #the program will terminate if the original conditions for a 3 digit positive number input are not met. 
 }
+
+
+# the code functions correctly to detect for a three digit numeric value
+# the inner if statement correctly calculates narcissistic numbers
+# good job noting the inner and outer if statements
+# It may be helpful to further explain what is being done in line 14
+# I believe the session is supposed to quit if the input is not 3 numeric
+# In this case, write the function quit() after the else condition for the outer statement
+
